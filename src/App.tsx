@@ -298,8 +298,18 @@ const testimonials = [
     name: 'Qwertyay',
     quote: 'Oops! All Spaghetti!',
   },
+  {
+    name: 'Rowan D',
+    quote: 'The club is so awesome! I don\'t even go to the school, and I still do the game jams there.',
+  },
+  {
+    name: 'Adam',
+    quote: 'Too much scope creep, not enough red bull and boo berry. Still worth it.',
+  },
 
-    {
+
+
+  {
     name: 'Michael C',
     quote: 'This club is a perfect place to make friends and games. ' +
       'Once, I would speak with ducks for ideas. Now, I speak with humans. ' +
@@ -316,6 +326,14 @@ const testimonials = [
   {
     name: 'Qwertyay',
     quote: 'Oops! All Spaghetti!',
+  },
+  {
+    name: 'Rowan D',
+    quote: 'The club is so awesome! I don\'t even go to the school, and I still do the game jams there.',
+  },
+  {
+    name: 'Adam',
+    quote: 'Too much scope creep, not enough red bull and boo berry. Still worth it.',
   },
 ];
 
@@ -358,12 +376,12 @@ const TestimonialsSection = () => {
 }
 
 const mediaImages = [
+  '/gdu/events/so2025.jpg',
   '/gdu/events/fo2025_jam3.jpg',
   '/gdu/events/fc2025_jam3.jpg',
   '/gdu/events/fo2025_jam4.jpg',
   '/gdu/events/jam.jpg',
   '/gdu/events/s2025.jpg',
-  '/gdu/events/so2025.jpg',
   '/gdu/events/team_at_breakfast_jam4.jpg',
   '/gdu/events/team_breakfast.webp',
 ];
@@ -459,7 +477,7 @@ const NavBar = () => {
       <AppBar position="fixed" color="default">
         <Toolbar sx={{ justifyContent: 'space-between' }}>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <Box component="img" src="/logo.png" alt="Logo" sx={{ height: 64, mr: 1 }} />
+            <Box component="img" src="/gdu/logo.png" alt="Logo" sx={{ height: 64, mr: 1 }} />
             <Typography variant="h6">Game Devs United</Typography>
           </Box>
 
